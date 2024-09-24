@@ -7,6 +7,13 @@
 	transition: fill 2s ease; /* Smooth color transition over 2 seconds */
 }
 
+#logoId img {
+	max-width: 200px;
+	margin: 20px;
+	position: relative;
+	display: block;
+}
+
 #nrfk-alert {
 	padding: 50px;
 	font-size: 20px;	
