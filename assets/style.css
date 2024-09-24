@@ -7,12 +7,7 @@
 	transition: fill 2s ease; /* Smooth color transition over 2 seconds */
 }
 
-#logoId:hover {
-    transform: scale(1.1); /* Enlarges the image on hover */
-    filter: brightness(1.05); /* Lightens the image */
-}
-
-#nk-alert {
+#nrfk-alert {
 	padding: 50px;
 	font-size: 20px;	
 	min-width: 100%;
@@ -60,11 +55,6 @@
     cursor: pointer; /* Make the cursor a pointer */
     font-weight: bold;
     transition: color 0.3s ease; /* Smooth transition for hover effect */
-}
-
-.redirect-link:hover {
-    color: #007bff; /* Change color on hover */
-    text-decoration: none; /* Optionally remove the underline */
 }
 
 .footer-note{
