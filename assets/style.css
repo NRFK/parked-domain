@@ -1,0 +1,77 @@
+#logoId {
+	margin-bottom: 46px;
+	position: relative;
+	z-index: 101;
+	width: 100px;
+	fill: #9fd8ff;
+	transition: fill 2s ease; /* Smooth color transition over 2 seconds */
+}
+
+#logoId:hover {
+    transform: scale(1.1); /* Enlarges the image on hover */
+    filter: brightness(1.05); /* Lightens the image */
+}
+
+#nk-alert {
+	padding: 50px;
+	font-size: 20px;	
+	min-width: 100%;
+	min-height: 100%;
+	margin: 10px;
+	contain: style;
+	overflow-wrap: break-word;
+}
+
+#urlInputDiv {
+	padding: 50px;
+	font-size: 20px;	
+	min-width: 100%;
+	min-height: 100%;
+	margin: 10px;
+	contain: style;
+	overflow-wrap: break-word;
+}
+
+#lblUrlField {
+	font-size: 20px;	
+	margin: 10px;
+}
+
+#checkUrlBtn{
+	padding: 10px;
+	font-size: 20px;	
+	margin: 10px;
+}
+
+#urlInputField{
+	padding: 10px;
+	font-size: 20px;	
+	margin: 10px;
+}
+
+.alert-redirect {
+	background-color: #0f6065;
+}
+
+.redirect-link{
+	text-decoration: underline;
+	color: #ffffff; /* Bootstrap's default link color */
+    text-decoration: underline; /* Underline the link */
+    cursor: pointer; /* Make the cursor a pointer */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.redirect-link:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: none; /* Optionally remove the underline */
+}
+
+.footer-note{
+	padding: 50px;
+	margin-top: 23%;
+	font-size: 20px;
+	font-weight: bold;
+	contain: style;
+	text-align: right;
+}
